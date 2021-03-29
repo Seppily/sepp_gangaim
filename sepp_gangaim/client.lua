@@ -49,3 +49,8 @@ Citizen.CreateThread(function()
         end
     end
 end)
+
+SetEnableHandcuffs(
+	ped --[[ Ped ]], 
+	toggle --[[ boolean ]]
+)
