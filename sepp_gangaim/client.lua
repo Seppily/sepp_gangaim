@@ -15,12 +15,7 @@ end)
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
     PlayerData = xPlayer   
-end)
-
-RegisterNetEvent('esx:setJob2')
-AddEventHandler('esx:setJob2', function(job2)
-    PlayerData.job2 = job2
-end)
+end))
 
 RegisterNetEvent('sepp_gangaim:aim')
 AddEventHandler('sepp_gangaim:aim', function()
